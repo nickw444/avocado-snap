@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Avocado!</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+</head>
+<body>  
+    <div class="container text-center">
+        <h1>Avocado!</h1>
+        <p>This site shows live images and timelapse of my avocado's growth. You can view the results of my previous <a href="https://www.youtube.com/watch?v=XEtWfFaPrTE">avocado here</a></p>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <h4>Latest Snapshot<br/><small>Captured some time in the past</small></h4>
+                <img style="width: 100%" src="/latest.jpg" />
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <h4>Timelapse Video<br /><small>Thanks ffmpeg!</small></h4>
+                <div class="embed-responsive embed-responsive-4by3">
+                    <video class="embed-responsive-item" controls>
+                        <source src="/stream.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <p class="text-muted" style="font-size:0.87em">Nick Whyte | <a href="http://nickwhyte.com/">nickwhyte.com</a></p>
+        <p><a target="_blank" href="http://github.com/nickw444/avocado-snap">View source on <i class="fa fa-github" aria-hidden="true"></i> Github</a></p>
+    </div>
+</body>
+</html>
